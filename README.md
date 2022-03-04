@@ -74,7 +74,7 @@ Optimizer는 AdamW를 사용했고, automatic mixed precision, LabelSmoothing �
 \
 --device '0,1,2,3' \
 --model_name 'klue/roberta-large' \
---text 'Ga-Bo-Ja-Go' \
+--text '_FINAL_DATA' \
 --kornlu_num 50000
 ```
 
