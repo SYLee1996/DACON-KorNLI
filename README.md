@@ -34,7 +34,7 @@ Optimizer는 AdamW를 사용했고, automatic mixed precision, LabelSmoothing �
 ## Environment 
 + Ubuntu 18.04
 + 사용한 Docker image는 Docker Hub에 첨부하며, 두 버전의 환경을 제공합니다.
-  + https://hub.docker.com/repository/docker/lsy2026/kor-nli
+  + https://hub.docker.com/r/lsy2026/kor-nli/tags
   + (cuda10.2, cudnn7, ubuntu18.04), (cuda11.2.0, cudnn8, ubuntu18.04)
   
   
