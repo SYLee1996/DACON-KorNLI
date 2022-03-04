@@ -10,7 +10,7 @@
 + BackTranslation의 경우 번역된 데이터의 품질이 좋지못해 원본데이터와 증강데이터의 유사도를 구해, 높은 유사도를 가진 데이터만 학습에 사용했습니다.
   + SentenceBERT(SBERT)를 이용하여 증강 데이터와의 유사도를 구함, pre-trained 'sentence-roberta-base' 모델을 사용했습니다.    
    
----
+</br>
 
 
 + 일차적으로 papago를 사용하여 번역을 진행한 후, 번역이 안되는 경우 부가적으로 google translator를 이용하여 번역을 진행했습니다.
@@ -22,7 +22,7 @@
    + 3-step: 재번역에도 일부분 번역이 안되는 단어의 경우 문장에서 분리 후 번역기로 해당 단어만 번역   
      ###### ex) 'gocheok sky dome은 korea의 경기장이다.' -> 'gocheok sky dome', 'korea' 단어만 번역
    + 4-step: '한글' -> '영어'로 번역 시, 번역된 문장이 기존 문장의 길이에 대한 비율 0.5 이하이면 재번역
----
+</br>
 
 + klue_roberta_large를 사용했으며, 5-fold를 이용하여 각 80%의 train data로 학습시킨 모델로 test셋에 대해 soft voting ensemble을 진행했습니다.
     + 학습 데이터: KLUE(80%) + KorNLU + Back Translation
