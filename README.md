@@ -8,8 +8,10 @@
 + googletanslator를 사용할 때 필요한 chromedriver 업로드(22.03.07)
 + Backtranslation 과정의 set_setting의 'path'값을 './chromedriver' 수정(22.03.07)
 + Docker image 수정 - 일부 오래된 버전의 라이브러리가 존재하여 conda 설치 후 라이브러리 업데이트. tag 끝에 -conda 붙어있는게 수정된 환경입니다.(22.03.07)
-----
+</br>
 
+----
+## Process
 + 데이터는 KLUE, KorNLU를 사용했으며 KorNLU 데이터의 경우 전체 데이터 중 일부(50000개)를 학습에 사용했습니다.
 + KLUE 데이터에 대해서만 (한->영->한) BackTranslation augmentation을 진행했습니다.
 + BackTranslation의 경우 번역된 데이터의 품질이 좋지못해 원본데이터와 증강데이터의 유사도를 구해, 높은 유사도를 가진 데이터만 학습에 사용했습니다.
