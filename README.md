@@ -4,6 +4,11 @@
 + 주최 및 주관: 데이콘 
 + 링크: https://dacon.io/competitions/official/235875/overview/description
 ----
+## Edit log
++ googletanslator를 사용할 때 필요한 chromedriver 업로드(22.03.07)
++ Backtranslation 과정의 set_setting의 'path'값을 './chromedriver' 수정(22.03.07)
++ Docker image 수정 - 일부 오래된 버전의 라이브러리가 존재하여 conda 설치 후 라이브러리 업데이트. tag 끝에 -conda 붙어있는게 수정된 환경입니다.(22.03.07)
+----
 
 + 데이터는 KLUE, KorNLU를 사용했으며 KorNLU 데이터의 경우 전체 데이터 중 일부(50000개)를 학습에 사용했습니다.
 + KLUE 데이터에 대해서만 (한->영->한) BackTranslation augmentation을 진행했습니다.
