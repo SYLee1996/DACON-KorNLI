@@ -22,11 +22,11 @@
 + 일차적으로 papago를 사용하여 번역을 진행한 후, 번역이 안되는 경우 부가적으로 google translator를 이용하여 번역을 진행했습니다.
 + 총 4step을 거쳐 번역을 시도했습니다. 
    + 1-step: 번역이 진행됨에 따라 공백 또는 번역이 이루어지지 않는 데이터를 nan값으로 처리 후 재번역     
-     ###### ex) ' ' or '' -> 원본 데이터 재번역
+     ###### ex) ' ' or ''   ->   'gocheok sky dome is dome of korea' 재번역
    + 2-step: 번역이 진행됨에 따라 일부분만 번역된 경우 또한 재번역  
-     ###### ex) 'gocheok sky dome은 korea의 경기장이다.' -> 원본 데이터 재번역
+     ###### ex) 'gocheok sky dome은 korea의 경기장이다.'   ->   'gocheok sky dome is dome of korea' 재번역
    + 3-step: 재번역에도 일부분 번역이 안되는 단어의 경우 문장에서 분리 후 번역기로 해당 단어만 번역   
-     ###### ex) 'gocheok sky dome은 korea의 경기장이다.' -> 'gocheok sky dome', 'korea' 단어만 번역
+     ###### ex) 'gocheok sky dome은 korea의 경기장이다.'   ->   'gocheok sky dome', 'korea' 단어만 번역
    + 4-step: '한글' -> '영어'로 번역 시, 번역된 문장이 기존 문장의 길이에 대한 비율 0.5 이하이면 재번역
 </br>
 
