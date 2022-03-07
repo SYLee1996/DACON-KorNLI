@@ -8,7 +8,6 @@
 + googletanslator를 사용할 때 필요한 chromedriver 업로드(22.03.07)
 + Backtranslation 과정의 set_setting의 'path'값을 './chromedriver' 수정(22.03.07)
 + Docker image 수정 - 일부 오래된 버전의 라이브러리가 존재하여 conda 설치 후 라이브러리 업데이트. tag 끝에 -conda 붙어있는게 수정된 환경입니다.(22.03.07)
-</br>
 
 ----
 ## Process
