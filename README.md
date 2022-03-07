@@ -13,8 +13,8 @@
 ## Process
 + 데이터는 KLUE, KorNLU를 사용했으며 KorNLU 데이터의 경우 전체 데이터 중 일부(50000개)를 학습에 사용했습니다.
 + KLUE 데이터에 대해서만 (한->영->한) BackTranslation augmentation을 진행했습니다.
-+ BackTranslation의 경우 번역된 데이터의 품질이 좋지못해 원본데이터와 증강데이터의 유사도를 구해, 높은 유사도를 가진 데이터만 학습에 사용했습니다.
-  + SentenceBERT(SBERT)를 이용하여 증강 데이터와의 유사도를 구함, pre-trained 'sentence-roberta-base' 모델을 사용했습니다.    
++ BackTranslation의 경우 번역 데이터의 품질이 좋지못해 원본 데이터와 증강 데이터의 '코사인 유사도'를 구해 유사도가 0.9 이상인 데이터만 선택적으로 학습에 사용했습니다.
+  + 원본 데이터와 증강 데이터 사이의 유사도를 구하기위해 SentenceBERT(SBERT)를 이용했으며, pre-trained 'sentence-roberta-base' 모델을 사용했습니다.    
    
 </br>
 
