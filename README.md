@@ -1,6 +1,6 @@
 # DACON-KorNLI
 
-## Final 4th | Private 5th | 0.89615 | Roberta-large+Backtrans(SBERT, cosine similarity)
+## Final 4th | 0.89615 | Roberta-large+Backtrans(SBERT, cosine similarity)
 + 주최 및 주관: 데이콘 
 + 링크: https://dacon.io/competitions/official/235875/overview/description
 ----
