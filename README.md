@@ -3,6 +3,11 @@
 ## Final 4th | 0.89615 | Roberta-large+Backtrans(SBERT, cosine similarity)
 + 주최 및 주관: 데이콘 
 + 링크: https://dacon.io/competitions/official/235875/overview/description
+
++ premise 문장을 참고해 hypothesis 문장이 참인지(Entailment), 거짓인지(Contradiction), 혹은 참/거짓 여부를 알 수 없는 문장인지(Neutral)를 판별
+
+<img width="1376" alt="image" src="https://user-images.githubusercontent.com/30611947/192327304-ddd07dc0-c81b-4896-982e-f0cdda768ddd.png">
+
 ----
 ## Edit log
 + googletanslator를 사용할 때 필요한 chromedriver 업로드(22.03.07)
