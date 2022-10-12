@@ -39,7 +39,7 @@
     + 학습 데이터: KLUE(80%) + KorNLU + Back Translation
     + 검증 데이터: KLUE(20%)
 
-Optimizer는 AdamW를 사용했고, automatic mixed precision, LabelSmoothing 적용 및 각 fold별 EarlyStopping을 적용했습니다.
+Optimizer는 AdamW를 사용했고, automatic mixed precision, LabelSmoothing(참에 대한 logit overconfidence) 적용 및 각 fold별 EarlyStopping을 적용했습니다.
 
 ---- 
 ## Environment 
