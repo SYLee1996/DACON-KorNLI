@@ -125,4 +125,4 @@ Result:
 ---- 
 
 ## 개선할 점
-+ Back-Translation을 통한 여러 언어로 학습 후 여러 언어 바탕의 inference 진행하여 ensemble(Multi-lingual)
++ Back-Translation을 통한 여러 언어 학습 -> 여러 언어 inference 진행하여 ensemble(Multi-lingual)
