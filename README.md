@@ -125,6 +125,4 @@ Result:
 ---- 
 
 ## 개선할 점
-+ 여러 언어로 학습 후 여러 언어로 inference 진행하여 ensemble(Multi-lingual) -> 해당 방법은 Back-translation 처럼 다른 NLP task에 적용 가능할 것 같아보임
-
-
++ Back-Translation을 통한 여러 언어로 학습 후 여러 언어 바탕의 inference 진행하여 ensemble(Multi-lingual)
