@@ -137,3 +137,10 @@ Result:
       GPU activate --> Count of using GPUs: 4
       100%|███████████████████████████████████████████| 14/14 [00:15<00:00,  1.14s/it]
       _FINAL_DATA_50000_5e-05_103_5_128_0.0001_0.1_5_fold is saved!
+      
+      
+      
+## 개선할 점
++ 여러 언어로 학습 후 여러 언어로 inference 진행하여 ensemble(Multi-lingual) -> 해당 방법은 Back-translation 처럼 다른 NLP task에 적용 가능할 것 같아보임
+
+
